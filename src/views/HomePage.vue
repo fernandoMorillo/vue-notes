@@ -1,9 +1,12 @@
 <script setup>
-
+import NotasList from "@/components/NotasList.vue";
 </script>
 
 <template>
-  $END$
+  <div>
+    <NotasList/>
+  </div>
+
 </template>
 
 <style scoped>
